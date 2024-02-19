@@ -1,13 +1,12 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: gp2-chou-challenge-argo
+  name: {{ .Values.volumes.name }}
   namespace: chou
 spec:
   accessModes:
     - ReadWriteOnce
   storageClassName: gp2
-  volumeName: chou-pv
   resources:
     requests:
       storage: 1Gi
