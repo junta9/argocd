@@ -28,9 +28,6 @@ spec:
       containers:
         - name: {{ .Values.imageName}}
           image: nginx:latest
-          volumeMounts:
-            - name: {{ .Values.volumes.name }}
-              mountPath: /usr/share/nginx/html
           ports:
             - containerPort: 80
           
