@@ -1,5 +1,5 @@
 imageName: monapi
-imageRepository: chouvang/monapi
+imageRepository: chouvang/monapiargo
 replicaCount: 1
 namespace: chou
 
