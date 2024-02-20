@@ -1,4 +1,4 @@
-imageName: chouvang/monapiargo
+imageName: nginx
 replicaCount: 1
 namespace: chou
 
