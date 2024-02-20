@@ -1,4 +1,5 @@
-imageName: nginx
+imageName: monapi
+imageRepository: chouvang/monapi
 replicaCount: 1
 namespace: chou
 

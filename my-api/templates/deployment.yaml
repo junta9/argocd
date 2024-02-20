@@ -26,8 +26,8 @@ spec:
             - name: {{ .Values.volumes.name }}
               mountPath: /data
       containers:
-        - name: {{ .Values.imageName}}
-          image: nginx:latest
+        - name: {{ .Values.imageName }}
+          image: {{ .Values.imageRepository }}
           ports:
             - containerPort: 80
           
